@@ -1,0 +1,58 @@
+# --------------------------
+# -- Arithmetic Operators --
+# --------------------------
+# [+] Addition              جمع
+# [-] Subtraction           السالب
+# [*] Multiplication        الضرب
+# [/] Division              القسمة
+# [%] Modulus               باقي القسمة
+# [**] Exponent             الاس
+# [//] Floor Division       تقبل القسمة
+# --------------------------
+
+# Addition الجمع
+
+print(10 + 30)  # 40
+print(-10 + 20)  # 10
+print(1 + 2.66)  # 3.66
+print(1.2 + 1.2)  # 2.4
+
+# Subtraction   السالب
+
+print(60 - 30)  # 30
+print(-30 - 20)  # -50
+print(-30 - -20)  # -10
+print(5.66 - 3.44)  # 2.22
+
+# Multiplication الضرب
+
+print(10 * 3)  # 30
+print(5 + 10 * 100)  # 1005
+print((5 + 10) * 100)  # 1500
+
+# Division  القسمة
+
+print(100 / 20)  # 5.0
+print(int(100 / 20))  # 5
+
+# Modulus  باقي القسمة
+
+print(8 % 2)  # 0
+print(9 % 2)  # 1
+print(20 % 5)  # 0
+print(22 % 5)  # 2
+
+# Exponent الاسس
+
+print(2 ** 5)  # 32
+print(2 * 2 * 2 * 2 * 2)  # 32
+print(5 ** 4)  # 625
+print(5 * 5 * 5 * 5)  # 625
+
+# Floor Division  تقبل القسمة
+
+print(100 // 20)  # 5
+print(119 // 20)  # 5
+print(120 // 20)  # 6
+print(140 // 20)  # 7
+print(142 // 20)  # 7
